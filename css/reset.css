@@ -1,0 +1,143 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: "微软雅黑";
+}
+li, a {
+	transition: all 0.3s linear 0s;
+}
+tr {
+	vertical-align: middle;
+}
+body {
+	line-height: 1;
+}
+html {
+	font-size: 62.5%;
+}
+ol, ul, li {
+	list-style: none;
+}
+img {
+	border: 0;/*max-width: 100%;*/
+}
+blockquote, q {
+	quotes: none;
+}
+a {
+	text-decoration: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+/*HTML 5 支持 - 将新 HTML 5 标签设置为 display:block，以使浏览器知道如何正确呈现标签。 */
+header, section, footer, aside, article, figure {
+	display: block;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+/*
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*/
+/**常规调用**/
+.wrap {
+	width: 1258px;
+	margin: 0 auto;
+}
+.w100 {
+	width: 100%;
+}
+.w100 img {
+	width: 100%;
+}
+.mt10 {
+	margin-top: 10px;
+}
+.mt20 {
+	margin-top: 20px;
+}
+.ml10 {
+	margin-left: 10px;
+}
+.ml20 {
+	margin-left: 20px;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.tc {
+	text-align: center;
+}
+.red {
+	color: #f00;
+}
+.re {
+	position: relative;
+}
+.ab {
+	position: absolute;
+}
+.dbt {
+	width: 100%;
+}
+.dbt ul {
+	overflow: hidden;
+}
+.dbt ul li {
+	float: left;
+	width: 50%;
+}
+.dbt ul li div {
+	width: 95%;
+	margin: 0 auto;
+}
+.dbt ul li span {
+	text-align: center;
+	padding: 1%;
+}
+/*透明度*/ 
+.transparent {
+	filter: alpha(opacity=90); /* internet explorer */
+	opacity: 0.8;              /* fx, safari, opera */
+}
+/*内容垂直居中*/ 
+.container {
+	display: table-cell;
+	vertical-align: middle;
+}
+/**float hight**/
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+	font-size: 0;
+}
+.clearfix {
+*zoom:1;
+}
+.clr {
+	clear: both;
+}
